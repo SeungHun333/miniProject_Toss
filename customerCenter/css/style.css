@@ -39,7 +39,7 @@ p {
   text-align: left;
 }
 /* 버튼 스타일 */
-.btn-custom {
+.btn_custom {
   background-color: #f0f0f0;
   border-color: #ccc;
   color: #333;
@@ -55,12 +55,12 @@ p {
   min-width: 120px;
 }
 
-.btn-custom:hover {
+.btn_custom:hover {
   background-color: #e0e0e0;
   border-color: #bbb;
 }
 
-.btn-custom svg {
+.btn_custom svg {
   width: 28px;
   height: 28px;
   margin-bottom: 5px;
@@ -73,7 +73,7 @@ p {
   flex-direction: row; /* 이미지를 오른쪽으로 배치 */
 }
 
-.img-container img {
+.img_container img {
  
   object-fit: cover; /* 이미지가 잘리지 않도록 설정 */
 }
@@ -88,7 +88,7 @@ p {
   margin: 20px 0;
 }
 
-.search-input {
+.search_input {
   max-width: 500px;
   margin: 0 auto;
   display: block;
@@ -99,7 +99,7 @@ p {
   max-height: 300px;
 }
 
-.customer .contact-info {
+.customer .contact_info {
   display: flex;  /* 전화번호 가로정렬 */
   }
 
