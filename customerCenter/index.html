@@ -12,12 +12,12 @@
   fetch('../footer/index.html') // 외부 footer 파일 경로
     .then(response => response.text()) // 파일을 텍스트로 변환
     .then(data => {
-      // 불러온 데이터가 footer-container에 삽입
-      const footerContainer = document.getElementById('footer-container');
+      // 불러온 데이터가 footer_container에 삽입
+      const footerContainer = document.getElementById('footer_container');
       if (footerContainer) {
         footerContainer.innerHTML = data;
       } else {
-        console.error('footer-container 요소를 찾을 수 없습니다.');
+        console.error('footer_container 요소를 찾을 수 없습니다.');
       }
     })
     .catch(error => console.error('Error loading footer:', error));
@@ -131,7 +131,7 @@
       <img src="./img/toss_compensation.png" alt="안심보상제">
     </div>
   </div>
-  <div id="footer-container"></div>
+  <div id="footer_container"></div>
     <script>
     
   </script>
